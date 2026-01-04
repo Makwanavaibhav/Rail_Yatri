@@ -1,0 +1,296 @@
+{
+    "categories": [
+        {
+            "name": "Breakfast",
+            "icon": "fas fa-sun",
+            "items": [
+                {
+                    "id": "bf1",
+                    "name": "Masala Dosa",
+                    "description": "Crispy dosa with potato filling, served with sambar and coconut chutney",
+                    "price": 120,
+                    "image": "assets/images/food/masala-dosa.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "bf2",
+                    "name": "Puri Bhaji",
+                    "description": "Fluffy puris with spicy potato curry",
+                    "price": 100,
+                    "image": "assets/images/food/puri-bhaji.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "bf3",
+                    "name": "Idli Sambar",
+                    "description": "Soft idlis with hot sambar and chutney",
+                    "price": 80,
+                    "image": "assets/images/food/idli-sambar.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "bf4",
+                    "name": "Bread Omelette",
+                    "description": "Fresh bread with fluffy omelette",
+                    "price": 90,
+                    "image": "assets/images/food/bread-omelette.jpg",
+                    "dietary": "non-veg"
+                },
+                {
+                    "id": "bf5",
+                    "name": "Upma",
+                    "description": "Semolina breakfast with vegetables and spices",
+                    "price": 70,
+                    "image": "assets/images/food/upma.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "bf6",
+                    "name": "Poha",
+                    "description": "Flattened rice with peanuts and spices",
+                    "price": 75,
+                    "image": "assets/images/food/poha.jpg",
+                    "dietary": "veg"
+                }
+            ]
+        },
+        {
+            "name": "Lunch & Dinner",
+            "icon": "fas fa-utensils",
+            "items": [
+                {
+                    "id": "ld1",
+                    "name": "Veg Thali",
+                    "description": "Complete meal with dal, rice, roti, sabzi, and dessert",
+                    "price": 180,
+                    "image": "assets/images/food/veg-thali.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "ld2",
+                    "name": "Chicken Biryani",
+                    "description": "Aromatic basmati rice with tender chicken and spices",
+                    "price": 220,
+                    "image": "assets/images/food/chicken-biryani.jpg",
+                    "dietary": "non-veg"
+                },
+                {
+                    "id": "ld3",
+                    "name": "Paneer Butter Masala",
+                    "description": "Cottage cheese in rich tomato gravy with naan",
+                    "price": 160,
+                    "image": "assets/images/food/paneer-butter-masala.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "ld4",
+                    "name": "Dal Khichdi",
+                    "description": "Comforting rice and lentil dish with ghee",
+                    "price": 140,
+                    "image": "assets/images/food/dal-khichdi.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "ld5",
+                    "name": "Fish Curry",
+                    "description": "Spicy fish curry with steamed rice",
+                    "price": 200,
+                    "image": "assets/images/food/fish-curry.jpg",
+                    "dietary": "non-veg"
+                },
+                {
+                    "id": "ld6",
+                    "name": "Mutton Curry",
+                    "description": "Tender mutton in aromatic gravy with roti",
+                    "price": 250,
+                    "image": "assets/images/food/mutton-curry.jpg",
+                    "dietary": "non-veg"
+                }
+            ]
+        },
+        {
+            "name": "Snacks",
+            "icon": "fas fa-cookie-bite",
+            "items": [
+                {
+                    "id": "sn1",
+                    "name": "Samosa",
+                    "description": "Crispy pastry with spiced potato and peas",
+                    "price": 30,
+                    "image": "assets/images/food/samosa.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "sn2",
+                    "name": "Vada Pav",
+                    "description": "Mumbai's favorite street food",
+                    "price": 25,
+                    "image": "assets/images/food/vada-pav.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "sn3",
+                    "name": "Pakora",
+                    "description": "Mixed vegetable fritters",
+                    "price": 40,
+                    "image": "assets/images/food/pakora.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "sn4",
+                    "name": "Chai & Biscuits",
+                    "description": "Hot tea with crispy biscuits",
+                    "price": 35,
+                    "image": "assets/images/food/chai-biscuits.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "sn5",
+                    "name": "Bhel Puri",
+                    "description": "Tangy and spicy street food",
+                    "price": 45,
+                    "image": "assets/images/food/bhel-puri.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "sn6",
+                    "name": "Cutlet",
+                    "description": "Crispy vegetable cutlet with chutney",
+                    "price": 50,
+                    "image": "assets/images/food/cutlet.jpg",
+                    "dietary": "veg"
+                }
+            ]
+        },
+        {
+            "name": "Beverages",
+            "icon": "fas fa-coffee",
+            "items": [
+                {
+                    "id": "bev1",
+                    "name": "Masala Chai",
+                    "description": "Spiced Indian tea with milk",
+                    "price": 20,
+                    "image": "assets/images/food/masala-chai.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "bev2",
+                    "name": "Coffee",
+                    "description": "Hot coffee with milk and sugar",
+                    "price": 25,
+                    "image": "assets/images/food/coffee.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "bev3",
+                    "name": "Lassi",
+                    "description": "Sweet yogurt-based drink",
+                    "price": 40,
+                    "image": "assets/images/food/lassi.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "bev4",
+                    "name": "Lemon Soda",
+                    "description": "Refreshing lemon soda with salt",
+                    "price": 30,
+                    "image": "assets/images/food/lemon-soda.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "bev5",
+                    "name": "Mango Shake",
+                    "description": "Fresh mango milkshake",
+                    "price": 60,
+                    "image": "assets/images/food/mango-shake.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "bev6",
+                    "name": "Mineral Water",
+                    "description": "500ml bottled water",
+                    "price": 15,
+                    "image": "assets/images/food/mineral-water.jpg",
+                    "dietary": "veg"
+                }
+            ]
+        },
+        {
+            "name": "Desserts",
+            "icon": "fas fa-ice-cream",
+            "items": [
+                {
+                    "id": "des1",
+                    "name": "Gulab Jamun",
+                    "description": "Sweet milk solids in sugar syrup",
+                    "price": 35,
+                    "image": "assets/images/food/gulab-jamun.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "des2",
+                    "name": "Rasgulla",
+                    "description": "Soft cottage cheese balls in syrup",
+                    "price": 30,
+                    "image": "assets/images/food/rasgulla.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "des3",
+                    "name": "Kheer",
+                    "description": "Rice pudding with nuts and cardamom",
+                    "price": 45,
+                    "image": "assets/images/food/kheer.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "des4",
+                    "name": "Ice Cream",
+                    "description": "Vanilla ice cream scoop",
+                    "price": 50,
+                    "image": "assets/images/food/ice-cream.jpg",
+                    "dietary": "veg"
+                }
+            ]
+        },
+        {
+            "name": "Fruits",
+            "icon": "fas fa-apple-alt",
+            "items": [
+                {
+                    "id": "fr1",
+                    "name": "Apple",
+                    "description": "Fresh red apple",
+                    "price": 25,
+                    "image": "assets/images/food/apple.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "fr2",
+                    "name": "Banana",
+                    "description": "Fresh yellow banana",
+                    "price": 15,
+                    "image": "assets/images/food/banana.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "fr3",
+                    "name": "Orange",
+                    "description": "Sweet and juicy orange",
+                    "price": 20,
+                    "image": "assets/images/food/orange.jpg",
+                    "dietary": "veg"
+                },
+                {
+                    "id": "fr4",
+                    "name": "Mixed Fruits",
+                    "description": "Assorted seasonal fruits",
+                    "price": 40,
+                    "image": "assets/images/food/mixed-fruits.jpg",
+                    "dietary": "veg"
+                }
+            ]
+        }
+    ]
+} 

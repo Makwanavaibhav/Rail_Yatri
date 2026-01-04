@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Details - Rail Yatri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-train"></i>
+                <h1>Rail Yatri</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Book Ticket</a>
+                <a href="login.html" class="nav-link" id="loginNav">Login</a>
+                <a href="signup.html" class="nav-link" id="signupNav">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Booking Summary -->
+        <section class="booking-section">
+            <div class="section-header">
+                <h2><i class="fas fa-info-circle"></i> Booking Summary</h2>
+            </div>
+            <div class="form-card">
+                <div id="bookingSummary" class="booking-summary"></div>
+            </div>
+        </section>
+
+        <!-- Passenger Details Section -->
+        <section class="booking-section">
+            <div class="section-header">
+                <h2><i class="fas fa-users"></i> Passenger Details</h2>
+            </div>
+            
+            <div class="form-card">
+                <div id="passengerForms" class="passenger-forms"></div>
+                <button type="button" class="btn-secondary" id="addPassenger">
+                    <i class="fas fa-plus"></i> Add Another Passenger
+                </button>
+            </div>
+
+            <div class="form-card">
+                <h3><i class="fas fa-address-card"></i> Contact Information</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="mobileNumber"><i class="fas fa-phone"></i> Mobile Number</label>
+                        <input type="tel" id="mobileNumber" class="form-control" placeholder="10-digit mobile number" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="your.email@example.com" required>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn-primary" id="proceedToPayment">
+                <i class="fas fa-arrow-right"></i> Proceed to Payment
+            </button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Rail Yatri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/utils.js"></script>
+    <script src="js/passengers.js"></script>
+</body>
+</html>
+

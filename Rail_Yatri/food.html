@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food on Train - Rail Yatri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-train"></i>
+                <h1>Rail Yatri</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Book Ticket</a>
+                <a href="login.html" class="nav-link" id="loginNav">Login</a>
+                <a href="signup.html" class="nav-link" id="signupNav">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Booking Summary -->
+        <section class="booking-section">
+            <div class="section-header">
+                <h2><i class="fas fa-info-circle"></i> Booking Summary</h2>
+            </div>
+            <div class="form-card">
+                <div id="bookingSummary" class="booking-summary"></div>
+            </div>
+        </section>
+
+        <!-- Food Selection Section -->
+        <section class="booking-section">
+            <div class="section-header">
+                <h2><i class="fas fa-utensils"></i> Food on Train (Optional)</h2>
+            </div>
+            
+            <div class="form-card">
+                <p class="food-intro">Select delicious meals for your journey. You can skip this step if you don't want to order food.</p>
+                
+                <div id="foodCategories" class="food-categories"></div>
+                
+                <div id="selectedFood" class="selected-food hidden">
+                    <h3><i class="fas fa-shopping-cart"></i> Selected Items</h3>
+                    <div id="selectedFoodList" class="selected-food-list"></div>
+                    <div class="food-total">
+                        <span>Total: ₹<strong id="foodTotal">0</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-card">
+                <div class="button-group">
+                    <button type="button" class="btn-secondary" id="skipFood">
+                        <i class="fas fa-forward"></i> Skip Food
+                    </button>
+                    <button type="button" class="btn-primary" id="proceedToPayment">
+                        <i class="fas fa-arrow-right"></i> Proceed to Payment
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Rail Yatri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/utils.js"></script>
+    <script src="js/food.js"></script>
+</body>
+</html>
+

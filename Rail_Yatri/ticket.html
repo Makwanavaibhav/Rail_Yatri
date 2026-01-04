@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Ticket - Rail Yatri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-train"></i>
+                <h1>Rail Yatri</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Book Ticket</a>
+                <a href="login.html" class="nav-link" id="loginNav">Login</a>
+                <a href="signup.html" class="nav-link" id="signupNav">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- E-Ticket Section -->
+        <section class="booking-section">
+            <div class="section-header">
+                <h2><i class="fas fa-ticket-alt"></i> E-Ticket</h2>
+            </div>
+            
+            <div class="ticket-card" id="eTicket">
+                <div class="ticket-header">
+                    <div class="ticket-logo">
+                        <i class="fas fa-train"></i>
+                        <span>Rail Yatri</span>
+                    </div>
+                    <div class="ticket-pnr">
+                        <span>PNR: <strong id="pnrNumber"></strong></span>
+                    </div>
+                </div>
+                <div class="ticket-body" id="ticketBody"></div>
+                <div class="ticket-footer">
+                    <p><i class="fas fa-info-circle"></i> This is an e-ticket. Please carry a valid ID proof while traveling.</p>
+                    <button type="button" class="btn-primary" id="downloadTicket">
+                        <i class="fas fa-download"></i> Download Ticket
+                    </button>
+                    <button type="button" class="btn-secondary" id="newBooking">
+                        <i class="fas fa-plus"></i> New Booking
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Rail Yatri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/utils.js"></script>
+    <script src="js/ticket.js"></script>
+</body>
+</html>
+

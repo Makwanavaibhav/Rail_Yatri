@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rail Yatri - Book Train Tickets Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-train"></i>
+                <h1>Rail Yatri</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Book Ticket</a>
+                <a href="login.html" class="nav-link" id="loginNav">Login</a>
+                <a href="signup.html" class="nav-link" id="signupNav">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Book Train Tickets</h2>
+                <p>Fast, Secure, and Reliable Train Ticket Booking</p>
+            </div>
+        </section>
+
+        <!-- Booking Form -->
+        <section class="booking-section">
+            <div class="section-header">
+                <h2><i class="fas fa-search"></i> Search Trains</h2>
+            </div>
+            
+            <div class="form-card">
+                <form id="searchForm">
+                    <!-- From Station -->
+                    <div class="form-group">
+                        <label for="fromStation">
+                            <i class="fas fa-map-marker-alt"></i> From Station
+                        </label>
+                        <div class="autocomplete-wrapper">
+                            <input type="text" 
+                                   id="fromStation" 
+                                   class="station-input form-control" 
+                                   placeholder="Enter station name or code"
+                                   autocomplete="off"
+                                   required>
+                            <div class="autocomplete-suggestions" id="fromSuggestions"></div>
+                        </div>
+                    </div>
+
+                    <!-- Swap Button will be added here by JavaScript -->
+
+                    <!-- To Station -->
+                    <div class="form-group">
+                        <label for="toStation">
+                            <i class="fas fa-map-marker-alt"></i> To Station
+                        </label>
+                        <div class="autocomplete-wrapper">
+                            <input type="text" 
+                                   id="toStation" 
+                                   class="station-input form-control" 
+                                   placeholder="Enter station name or code"
+                                   autocomplete="off"
+                                   required>
+                            <div class="autocomplete-suggestions" id="toSuggestions"></div>
+                        </div>
+                    </div>
+
+                    <!-- Journey Date -->
+                    <div class="form-group">
+                        <label for="journeyDate">
+                            <i class="fas fa-calendar-alt"></i> Date of Journey
+                        </label>
+                        <input type="date" 
+                               id="journeyDate" 
+                               class="form-control" 
+                               required>
+                    </div>
+
+                    <!-- Quota Selection -->
+                    <div class="form-group">
+                        <label for="quota">
+                            <i class="fas fa-tag"></i> Quota
+                        </label>
+                        <div class="select-wrapper">
+                            <select id="quota" class="form-control" required>
+                                <option value="">Select Quota</option>
+                                <option value="General">General</option>
+                                <option value="Tatkal">Tatkal</option>
+                                <option value="Ladies">Ladies</option>
+                                <option value="Lower Berth">Lower Berth</option>
+                                <option value="Senior Citizen">Senior Citizen</option>
+                            </select>
+                            <span class="select-arrow">▼</span>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group">
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-search"></i> Search Trains
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="section-header">
+                <h2>Why Choose Rail Yatri?</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast Booking</h3>
+                    <p>Book tickets in under 2 minutes</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure Payment</h3>
+                    <p>100% secure payment gateway</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-ticket-alt"></i>
+                    <h3>Easy Cancellation</h3>
+                    <p>Quick and hassle-free cancellation</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Rail Yatri. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script src="js/utils.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/index.js"></script>
+
+<script>
+    // Simple navigation update on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        // Update navigation after auth.js loads
+        setTimeout(updateNavigation, 100);
+    });
+</script>
+</body>
+</html>

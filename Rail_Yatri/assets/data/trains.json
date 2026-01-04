@@ -1,0 +1,726 @@
+[
+    {
+        "trainNumber": "12951",
+        "trainName": "Rajdhani Express",
+        "from": "NDLS",
+        "to": "BCT",
+        "departureTime": "16:55",
+        "arrivalTime": "08:15",
+        "duration": "15h 20m",
+        "distance": "1384 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 4500,
+                "available": 15
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 2650,
+                "available": 45
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1850,
+                "available": 120
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 750,
+                "available": 200
+            }
+        ],
+        "days": ["Mon", "Wed", "Fri", "Sun"],
+        "type": "Rajdhani"
+    },
+    {
+        "trainNumber": "12952",
+        "trainName": "Rajdhani Express",
+        "from": "BCT",
+        "to": "NDLS",
+        "departureTime": "17:10",
+        "arrivalTime": "08:30",
+        "duration": "15h 20m",
+        "distance": "1384 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 4500,
+                "available": 12
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 2650,
+                "available": 38
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1850,
+                "available": 95
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 750,
+                "available": 180
+            }
+        ],
+        "days": ["Tue", "Thu", "Sat"],
+        "type": "Rajdhani"
+    },
+    {
+        "trainNumber": "12301",
+        "trainName": "Rajdhani Express",
+        "from": "NDLS",
+        "to": "HWH",
+        "departureTime": "16:50",
+        "arrivalTime": "10:00",
+        "duration": "17h 10m",
+        "distance": "1447 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 4800,
+                "available": 8
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 2850,
+                "available": 25
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1950,
+                "available": 85
+            }
+        ],
+        "days": ["Mon", "Wed", "Fri", "Sun"],
+        "type": "Rajdhani"
+    },
+    {
+        "trainNumber": "12302",
+        "trainName": "Rajdhani Express",
+        "from": "HWH",
+        "to": "NDLS",
+        "departureTime": "17:00",
+        "arrivalTime": "10:10",
+        "duration": "17h 10m",
+        "distance": "1447 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 4800,
+                "available": 10
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 2850,
+                "available": 30
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1950,
+                "available": 90
+            }
+        ],
+        "days": ["Tue", "Thu", "Sat"],
+        "type": "Rajdhani"
+    },
+    {
+        "trainNumber": "12621",
+        "trainName": "Tamil Nadu Express",
+        "from": "NDLS",
+        "to": "MAS",
+        "departureTime": "22:30",
+        "arrivalTime": "04:00",
+        "duration": "29h 30m",
+        "distance": "2180 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 6500,
+                "available": 5
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 3850,
+                "available": 20
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 2650,
+                "available": 75
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 1050,
+                "available": 150
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12622",
+        "trainName": "Tamil Nadu Express",
+        "from": "MAS",
+        "to": "NDLS",
+        "departureTime": "22:15",
+        "arrivalTime": "03:45",
+        "duration": "29h 30m",
+        "distance": "2180 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 6500,
+                "available": 8
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 3850,
+                "available": 25
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 2650,
+                "available": 80
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 1050,
+                "available": 160
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12509",
+        "trainName": "Guwahati Express",
+        "from": "NDLS",
+        "to": "GHY",
+        "departureTime": "23:45",
+        "arrivalTime": "06:30",
+        "duration": "30h 45m",
+        "distance": "1892 km",
+        "classes": [
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 3200,
+                "available": 15
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 2200,
+                "available": 60
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 850,
+                "available": 120
+            }
+        ],
+        "days": ["Mon", "Wed", "Fri"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12510",
+        "trainName": "Guwahati Express",
+        "from": "GHY",
+        "to": "NDLS",
+        "departureTime": "23:30",
+        "arrivalTime": "06:15",
+        "duration": "30h 45m",
+        "distance": "1892 km",
+        "classes": [
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 3200,
+                "available": 18
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 2200,
+                "available": 65
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 850,
+                "available": 125
+            }
+        ],
+        "days": ["Tue", "Thu", "Sat"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12953",
+        "trainName": "August Kranti Express",
+        "from": "BCT",
+        "to": "NDLS",
+        "departureTime": "17:40",
+        "arrivalTime": "09:15",
+        "duration": "15h 35m",
+        "distance": "1384 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 4200,
+                "available": 10
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 2450,
+                "available": 35
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1750,
+                "available": 100
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 700,
+                "available": 180
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12954",
+        "trainName": "August Kranti Express",
+        "from": "NDLS",
+        "to": "BCT",
+        "departureTime": "17:25",
+        "arrivalTime": "09:00",
+        "duration": "15h 35m",
+        "distance": "1384 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 4200,
+                "available": 12
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 2450,
+                "available": 40
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1750,
+                "available": 110
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 700,
+                "available": 190
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12627",
+        "trainName": "Karnataka Express",
+        "from": "NDLS",
+        "to": "SBC",
+        "departureTime": "20:30",
+        "arrivalTime": "06:00",
+        "duration": "33h 30m",
+        "distance": "2367 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 6800,
+                "available": 6
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 4050,
+                "available": 22
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 2850,
+                "available": 85
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 1150,
+                "available": 160
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12628",
+        "trainName": "Karnataka Express",
+        "from": "SBC",
+        "to": "NDLS",
+        "departureTime": "20:15",
+        "arrivalTime": "05:45",
+        "duration": "33h 30m",
+        "distance": "2367 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 6800,
+                "available": 8
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 4050,
+                "available": 25
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 2850,
+                "available": 90
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 1150,
+                "available": 165
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12959",
+        "trainName": "Ahmedabad Express",
+        "from": "NDLS",
+        "to": "ADI",
+        "departureTime": "23:20",
+        "arrivalTime": "16:45",
+        "duration": "17h 25m",
+        "distance": "935 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 3200,
+                "available": 12
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 1850,
+                "available": 45
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1350,
+                "available": 120
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 550,
+                "available": 200
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12960",
+        "trainName": "Ahmedabad Express",
+        "from": "ADI",
+        "to": "NDLS",
+        "departureTime": "23:45",
+        "arrivalTime": "17:10",
+        "duration": "17h 25m",
+        "distance": "935 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 3200,
+                "available": 15
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 1850,
+                "available": 50
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1350,
+                "available": 125
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 550,
+                "available": 210
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12323",
+        "trainName": "Himgiri Express",
+        "from": "NDLS",
+        "to": "JAT",
+        "departureTime": "22:45",
+        "arrivalTime": "12:30",
+        "duration": "13h 45m",
+        "distance": "591 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 2200,
+                "available": 8
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 1250,
+                "available": 35
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 950,
+                "available": 100
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 400,
+                "available": 180
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12324",
+        "trainName": "Himgiri Express",
+        "from": "JAT",
+        "to": "NDLS",
+        "departureTime": "23:15",
+        "arrivalTime": "13:00",
+        "duration": "13h 45m",
+        "distance": "591 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 2200,
+                "available": 10
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 1250,
+                "available": 40
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 950,
+                "available": 105
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 400,
+                "available": 190
+            }
+        ],
+        "days": ["Daily"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12426",
+        "trainName": "Rajdhani Express",
+        "from": "NDLS",
+        "to": "PNBE",
+        "departureTime": "18:00",
+        "arrivalTime": "07:30",
+        "duration": "13h 30m",
+        "distance": "1000 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 3500,
+                "available": 10
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 2050,
+                "available": 40
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1450,
+                "available": 110
+            }
+        ],
+        "days": ["Mon", "Wed", "Fri", "Sun"],
+        "type": "Rajdhani"
+    },
+    {
+        "trainNumber": "12425",
+        "trainName": "Rajdhani Express",
+        "from": "PNBE",
+        "to": "NDLS",
+        "departureTime": "18:30",
+        "arrivalTime": "08:00",
+        "duration": "13h 30m",
+        "distance": "1000 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 3500,
+                "available": 12
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 2050,
+                "available": 45
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 1450,
+                "available": 115
+            }
+        ],
+        "days": ["Tue", "Thu", "Sat"],
+        "type": "Rajdhani"
+    },
+    {
+        "trainNumber": "12561",
+        "trainName": "North East Express",
+        "from": "NDLS",
+        "to": "DBRG",
+        "departureTime": "21:45",
+        "arrivalTime": "08:30",
+        "duration": "34h 45m",
+        "distance": "1850 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 5800,
+                "available": 5
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 3400,
+                "available": 20
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 2350,
+                "available": 80
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 950,
+                "available": 150
+            }
+        ],
+        "days": ["Mon", "Wed", "Fri"],
+        "type": "Express"
+    },
+    {
+        "trainNumber": "12562",
+        "trainName": "North East Express",
+        "from": "DBRG",
+        "to": "NDLS",
+        "departureTime": "22:00",
+        "arrivalTime": "08:45",
+        "duration": "34h 45m",
+        "distance": "1850 km",
+        "classes": [
+            {
+                "class": "1A",
+                "name": "First AC",
+                "fare": 5800,
+                "available": 8
+            },
+            {
+                "class": "2A",
+                "name": "Second AC",
+                "fare": 3400,
+                "available": 25
+            },
+            {
+                "class": "3A",
+                "name": "Third AC",
+                "fare": 2350,
+                "available": 85
+            },
+            {
+                "class": "SL",
+                "name": "Sleeper",
+                "fare": 950,
+                "available": 155
+            }
+        ],
+        "days": ["Tue", "Thu", "Sat"],
+        "type": "Express"
+    }
+] 
